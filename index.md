@@ -1,4 +1,6 @@
-## Making the hidden visible: Co-designing for public values in standards-making and governance
+![Shannon Communication Diagram](https://github.com/HiddenProject/Making-the-Hidden-Visible/blob/gh-pages/Shannon_Claude_E_1948_General_communication_system_diagram.jpg "Shannon Communication Diagram")
+
+## Co-designing for public values in standards-making and governance
 
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
 
@@ -14,11 +16,14 @@ In so doing, the project contributes to illuminating the “wiring” of values 
 ## Team
 
 The project is led by:
-  Stefania Milan (University of Amsterdam)
-  Paul Groth (University of Amsterdam)
-  Adamantia Rachovitsa (Groningen University)
+- Dr. Stefania Milan (University of Amsterdam)
+- Prof. Dr. Paul Groth (University of Amsterdam)
+- Dr. Adamantia Rachovitsa (Groningen University)
 
 The researchers for this project are:
-  Niels ten Oever (postdoc) (University of Amsterdam and Texas A&M University)
-  Xue Li (Effy) (PhD student) (University of Amsterdam)
+- Dr. Niels ten Oever (postdoc) (University of Amsterdam and Texas A&M University)
+- Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
+
+The administrator of the project is:
+- Jeroen de Vos MA
 
