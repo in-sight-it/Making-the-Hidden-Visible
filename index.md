@@ -1,4 +1,4 @@
-![Shannon Communication Diagram](https://github.com/HiddenProject/Making-the-Hidden-Visible/blob/gh-pages/Shannon_Claude_E_1948_General_communication_system_diagram.jpg "Shannon Communication Diagram")
+![Shannon Communication Diagram](https://github.com/HiddenProject/Making-the-Hidden-Visible/blob/gh-pages/shannon.jpg "Shannon Communication Diagram")
 
 ## Co-designing for public values in standards-making and governance
 
