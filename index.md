@@ -1,4 +1,4 @@
-![Shannon Communication Diagram](https://github.com/HiddenProject/Making-the-Hidden-Visible/blob/gh-pages/shannon.jpg?raw=true "Shannon Communication Diagram")
+![Shannon Communication Diagram](https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true "Shannon Communication Diagram")
 
 ## Co-designing for public values in standards-making and governance
 
