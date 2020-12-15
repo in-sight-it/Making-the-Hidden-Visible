@@ -21,15 +21,15 @@ In so doing, the project contributes to illuminating the “wiring” of values 
 Team
 The project is led by:
 
-Dr. Stefania Milan (University of Amsterdam)
-Prof. Dr. Paul Groth (University of Amsterdam)
-Dr. Adamantia Rachovitsa (Groningen University)
+* Dr. Stefania Milan (University of Amsterdam)
+* Prof. Dr. Paul Groth (University of Amsterdam)
+* Dr. Adamantia Rachovitsa (Groningen University)
 
 The researchers for this project are:
 
-Dr. Niels ten Oever (postdoc) (University of Amsterdam and Texas A&M University)
-Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
+* Dr. Niels ten Oever (postdoc) (University of Amsterdam and Texas A&M University)
+* Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
 
 The administrator of the project is:
 
-Jeroen de Vos MA
+* Jeroen de Vos MA
