@@ -1,7 +1,5 @@
 ![Shannon Communication Diagram](https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true "Shannon Communication Diagram")
 
-## Co-designing for public values in standards-making and governance
-
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
 
 Standardization describes and uniforms a set of criteria, often of a technical nature, the associated practices and methods enabling the interoperability of networks and datasets. Standards thus mediate societal life, thus our ability to enact our citizenship and enjoy human rights in the digital age. Straddling computer science, sociology, law, and media studies, this project investigates standard-making in relation to democratic values and practices. It asks how the public sphere is governed today through the standardization of the digital and how to support societal values in the creation of standards. Specifically, it looks at standard-making as a sociotechnical practice, analyzing technology development and implementation, the related governance arrangements and legal aspects. 
