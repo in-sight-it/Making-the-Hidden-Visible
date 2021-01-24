@@ -1,6 +1,16 @@
 theme: jekyll-theme-slate
 title: IN-SIGHT.it
 description: An interdisciplinary academic project aimed at co-designing for public values in standards-making and governance
+
+navbar-links:
+  About: index.md
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+
+
 header_pages:
   - index.md
   - team.md
