@@ -1,6 +1,9 @@
 in-sight: making the hidden visible
 ===================================
 
+Co-designing for public values in standards-making and governance
+-----------------------------------------------------------------
+
 **University of Amsterdam & Groningen University**
 
 Co-designing for public values in standards-making and governance
