@@ -1,10 +1,3 @@
 theme: jekyll-theme-slate
 title: IN-SIGHT.it
 description: An interdisciplinary academic project aimed at co-designing for public values in standards-making and governance
-
-## This did not seem to work
-# header_pages:
-#   - index.md
-#   - team.md
-#   - academicboard.md
-#   - valorizationboard.md
