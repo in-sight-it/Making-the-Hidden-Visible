@@ -10,6 +10,8 @@ The researchers for this project are:
 The administrator of the project is:
 - Jeroen de Vos MA
 
+| - | - |
+|---|---|
 | ![Stefania](./assets/small/Stefania.jpeg "Stefania") | **Stefania Milan** is Associate Professor of New Media and Digital Culture at University of Amsterdam. Her work explores the interplay between digital technology, activism and governance. In addition to her involvement with IN-SIGHT, Stefania is the Principal Investigator of DATACTIVE (data-activism.net), funded by the European Research Council and co-Principal Investigator of the Marie Skłodowska-Curie Innovative Training Network e-LADDA (e-ladda.eu). Stefania holds a PhD in Political and Social Science from the European University Institute. Prior to joining the University of Amsterdam, she worked at, among others, the Citizen Lab at the University of Toronto and the Central European University. Stefania is the author of Social Movements and Their Technologies: Wiring Social Change (Palgrave Macmillan, 2013/2016) and co-author of Media/Society (Sage, 2011). 
 
 **Paul Groth** is Professor of Algorithmic Data Science at the University of Amsterdam where he leads the Intelligent Data Engineering Lab (INDElab). He holds a Ph.D. in Computer Science from the University of Southampton (2007) and has done research at the University of Southern California, the Vrije Universiteit Amsterdam and Elsevier Labs. His research focuses on intelligent systems for dealing with large amounts of diverse contextualized knowledge with a particular focus on web and science applications. This includes research in data provenance, data integration and knowledge sharing. 
