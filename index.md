@@ -1,8 +1,8 @@
 ---
-title: IN-SIGHT.it
+title: Citizenship and standard-setting in digital networks
 feature_image: "https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true"
 feature_text: |
-  ## Citizenship and standard-setting in digital networks
+  ## IN-SIGHT.it
 ---
 
 **Co-designing for public values in standards-making and governance**
