@@ -17,18 +17,3 @@ This project investigates three cases of national relevance and global breadth:
 3. the development and implementation of 5th generation (5G) cellular mobile communication. 
 
 In so doing, the project contributes to illuminating the “wiring” of values (or lack thereof) into technical standards, the relation and the balance of power between a variety of public (e.g., states) and private actors (e.g., the industry, consumers), informal lawmaking and multistakeholder governance mechanisms. It will result in the co-design of mechanisms for technology and governance, and in standards which are “value- and rights-respecting by design”.
-
-## Team
-
-The project is led by:
-- Dr. Stefania Milan (University of Amsterdam)
-- Prof. Dr. Paul Groth (University of Amsterdam)
-- Dr. Adamantia Rachovitsa (Groningen University)
-
-The researchers for this project are:
-- Dr. Niels ten Oever (postdoc) (University of Amsterdam and Texas A&M University)
-- Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
-
-The administrator of the project is:
-- Jeroen de Vos MA
-
