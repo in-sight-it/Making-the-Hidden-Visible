@@ -2,8 +2,10 @@
 title: IN-SIGHT.it
 feature_image: "https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true"
 feature_text: |
-  ## Shannon Communication Diagram
+  ## Citizenship and standard-setting in digital networks
 ---
+
+**Co-designing for public values in standards-making and governance**
 
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
 
