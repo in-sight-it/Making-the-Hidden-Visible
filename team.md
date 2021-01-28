@@ -10,7 +10,7 @@ The researchers for this project are:
 The administrator of the project is:
 - Jeroen de Vos MA
 
-## Biographies-p[ad
+## Biographies
 
 <img style="float=left" style="padding-right=30px" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/small/Stefania.png"> **Stefania Milan** is Associate Professor of New Media and Digital Culture at University of Amsterdam. Her work explores the interplay between digital technology, activism and governance. In addition to her involvement with IN-SIGHT, Stefania is the Principal Investigator of DATACTIVE (data-activism.net), funded by the European Research Council and co-Principal Investigator of the Marie Skłodowska-Curie Innovative Training Network e-LADDA (e-ladda.eu). Stefania holds a PhD in Political and Social Science from the European University Institute. Prior to joining the University of Amsterdam, she worked at, among others, the Citizen Lab at the University of Toronto and the Central European University. Stefania is the author of Social Movements and Their Technologies: Wiring Social Change (Palgrave Macmillan, 2013/2016) and co-author of Media/Society (Sage, 2011). 
 
