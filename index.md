@@ -1,8 +1,8 @@
 ---
-title: <span style="color:red">Citizenship and standard-setting in digital networks</span>
+title: <span style="color:grey">Citizenship and standard-setting in digital networks</span>
 feature_image: "https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true"
 feature_text: |
-  ## IN-SIGHT.it
+  ## <span style="color:red">IN-SIGHT.it</span>
 ---
 
 **Co-designing for public values in standards-making and governance**
