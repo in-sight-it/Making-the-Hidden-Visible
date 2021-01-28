@@ -6,7 +6,7 @@
 
 Lars has been leading Internet standards for two decades as a member of the IETF’s steering group and architecture board. He has also chaired the IETF’s research arm, the IRTF. He currently chairs the QUIC working group, which designs a major new Internet protocol. He also serves on the program and organization committees of academic conferences such as ACM SIGCOMM and USENIX NSDI, as well as numerous other boards.  
 
-Lars received his Ph.D. in Computer Science from the University of Southern California (USC) in 2003. Before joining NetApp in 2011, he was a Principal Scientist at Nokia and served on the corporation’s CTO and CEO Technology Councils. In parallel, from 2009-2014, Lars was an Adjunct Professor at Aalto. 
+Lars received his Ph.D. in Computer Science from the University of Southern California (USC) in 2003. Before joining NetApp in 2011, he was a Principal Scientist at Nokia and served on the corporation’s CTO and CEO Technology Councils. In parallel, from 2009-2014, Lars was an Adjunct Professor at Aalto University. From 2003-2006, he was a senior researcher at NEC Labs. 
 
 <img style="float=left;" align="left" margins=300px padding-right=100x src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/small/Jakub.png"> **Jakub Zavrel** is Founder, Technologist, Entrepreneur at Zeta Alpha where he is building a new long lasting, prosperous, and global AI company with a very ambitious goal. When he is not working or with family, you can find him listening to live music, enjoying a crafty cocktail, running or rowing, or tending to his rooftop garden. 
 
