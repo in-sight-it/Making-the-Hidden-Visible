@@ -37,9 +37,12 @@ navigation_header:
 - title: Home
   url: /
 - title: Team
-  url: /Team/
-- title: Boards
-  url: /Boards/
+  url: /team/
+- title: Academic Board
+  url: /academicboard/
+- title: Valorization Board
+  url: /valorizationboard/
+
 
 # Footer nav
 navigation_footer:
