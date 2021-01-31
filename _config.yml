@@ -42,6 +42,8 @@ navigation_header:
   url: /academicboard/
 - title: Valorization Board
   url: /valorizationboard/
+- title: Waves of Interference
+  url: /wavesofinterference/
 
 
 # Footer nav
