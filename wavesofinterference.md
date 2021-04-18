@@ -47,7 +47,7 @@ The research currently has two approaches:
   - PyBOMBS (to deploy GNURadio packages: https://github.com/gnuradio/pybombs)
   - Open5Gs (excellently dockerized here: https://github.com/herlesupreeth/docker_open5gs)
   - Portainer (vizualise, inspect, and monitor dockers)
-  - Weavescope & ctop (to visualize traffic between containers)
+  - Weavescope & ctop & sysdig & sysdiginspect (to visualize traffic between containers)
   - Ledcube firmware (https://github.com/yarivkeinan/8x8x8-led-cube-firmware)
   - Ledcube serial access JTAG (https://github.com/tomazas/ledcube8x8x8)
   - Ledcube Java program to control LEDS (and Hex data stream standard) https://github.com/tomazas/DotMatrixJava
