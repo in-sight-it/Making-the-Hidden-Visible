@@ -1,6 +1,6 @@
 # Waves of Interference 5G lab
 
-This in an indepedent sub-project of IN-SIGHT.it in which Maxigas, Niels ten Oever, and Jeroen de Vos seek to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
+This in an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos seek to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
 
 The research currently has two approaches:
 
@@ -28,7 +28,7 @@ The research currently has two approaches:
 ## Equipment
     
 ### Hardware
-  - USRP B210 SDR Kit 2x2 (70 MHz - 6GHz) - Ettus Research
+  - USRP B210 SDR Kit 2x2 (70 MHz - 6GHz) - Ettus Research <https://www.ettus.com/all-products/ub210-kit/>
   - SIMs - sysmoISIM-SJA2-10p-adm sysmoISIM-SJA2 SIM + USIM + ISIM Card (10-pack)
   - 100 MHz GPS Disciplined Oscillator
   - Several SMA Male to SMA Male RG58 50ohm Coaxial Cable SMA Plug WiFi Antenna Extension Cable Connector Adapter Pigtail
@@ -42,16 +42,16 @@ The research currently has two approaches:
   - 4G LTE antena outdoor SMA 12dBi Omni antenne 3G TS9 male 5m 2.4GHz CRC9 TS9 for Huawei B315 E8372 E3372 ZTE routers
 
 ### Software
-  - UHD (to talk to the B210: https://github.com/EttusResearch/uhd)
-  - GNURadio (to experiment with the B210 and understand its concepts: https://github.com/gnuradio/gnuradio)
-  - PyBOMBS (to deploy GNURadio packages: https://github.com/gnuradio/pybombs)
-  - Open5Gs (excellently dockerized here: https://github.com/herlesupreeth/docker_open5gs)
+  - UHD (to talk to the B210: <https://github.com/EttusResearch/uhd>)
+  - GNURadio (to experiment with the B210 and understand its concepts: <https://github.com/gnuradio/gnuradio>)
+  - PyBOMBS (to deploy GNURadio packages: <https://github.com/gnuradio/pybombs>)
+  - Open5Gs (excellently dockerized here: <https://github.com/herlesupreeth/docker_open5gs>)
   - Portainer (vizualise, inspect, and monitor dockers)
   - Weavescope & ctop & sysdig & sysdiginspect (to visualize traffic between containers)
-  - Ledcube firmware (https://github.com/yarivkeinan/8x8x8-led-cube-firmware)
-  - Ledcube serial access JTAG (https://github.com/tomazas/ledcube8x8x8)
-  - Ledcube Java program to control LEDS (and Hex data stream standard) https://github.com/tomazas/DotMatrixJava
-  - PySim (to write SIMcards: https://github.com/osmocom/pysim)
+  - Ledcube firmware (<https://github.com/yarivkeinan/8x8x8-led-cube-firmware>)
+  - Ledcube serial access JTAG (<https://github.com/tomazas/ledcube8x8x8>)
+  - Ledcube Java program to control LEDS (and Hex data stream standard) <https://github.com/tomazas/DotMatrixJava>
+  - PySim (to write SIMcards: <https://github.com/osmocom/pysim>)
 
 ### Tools
   - Soldering iron (Aoyue 3210)
