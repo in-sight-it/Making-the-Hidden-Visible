@@ -12,7 +12,7 @@ The research currently has two approaches:
   
   We aim to critically examine different network designs and affordances that become possible through the implementation 5G standards. 
   
-  Subsequently we aims to use our findings to make 5G more insightful to a larger audience.
+  We aim to use our findings to make 5G technologies more insightful to a larger audience through visualizations and interactions that inform citizen engagement with standard setting, polticy making, and technology development.
   
 ## Current project:
   - [DONE] Get 4G LTE network working
