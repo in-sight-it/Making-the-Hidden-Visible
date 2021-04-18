@@ -43,14 +43,16 @@ The research currently has two approaches:
 
 ### Software
   - Open5Gs (excellently dockerized here: https://github.com/herlesupreeth/docker_open5gs )
-  - PySim (to write SIMcards: https://github.com/osmocom/pysim)
-  - Weavescope (to visualize traffic between containers)
+  - Portainer (vizualise, inspect, and monitor dockers)
+  - Weavescope & ctop (to visualize traffic between containers)
   - Ledcube firmware (https://github.com/yarivkeinan/8x8x8-led-cube-firmware)
   - Ledcube serial access JTAG (https://github.com/tomazas/ledcube8x8x8)
   - Ledcube Java program to control LEDS (and Hex data stream standard) https://github.com/tomazas/DotMatrixJava
+  - PySim (to write SIMcards: https://github.com/osmocom/pysim)
 
 ### Tools
   - Soldering iron (Aoyue 3210)
+  - Excess tin sucker
   - Magnifying glass
   - Multimeter
   - Laptop XPS13 w/ubuntu 20.10
@@ -59,6 +61,7 @@ The research currently has two approaches:
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
   - [Casemodding to fit GPS-DO](https://www.youtube.com/watch?v=V1i42qqgNYY)
 
-
+## Acknowledgents
+  - Albert ten Oever, LAG Hackerspace, Arnd 'Justa' TechInc
 
   
