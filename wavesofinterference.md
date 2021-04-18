@@ -14,16 +14,16 @@ The research currently has two approaches:
   
   Subsequently we aims to use our findings to make 5G more insightful to a larger audience.
   
-  Current project:
-    [DONE] Get 4G LTE network working
-    [DONE] Get 5G network working
-    [In Progress] Program SIM cards to get range of devices registered to network
-    [In Progress] Visualize 5G network traffic on laptop
-    [In Progress] Visualize 5G network traffic on LED cube
-    [Next] Run edge services in 5G network
-    [Next] Visualize edge services in 5G on laptop
-    [Next] Visualize edge services in 5G on laptop on LED cube
-    [Next] Use synth to add audio to visualization
+## Current project:
+  - [DONE] Get 4G LTE network working
+  - [DONE] Get 5G network working
+  - [In Progress] Program SIM cards to get range of devices registered to network
+  - [In Progress] Visualize 5G network traffic on laptop
+  - [In Progress] Visualize 5G network traffic on LED cube
+  - [Next] Run edge services in 5G network
+  - [Next] Visualize edge services in 5G on laptop
+  - [Next] Visualize edge services in 5G on laptop on LED cube
+  - [Next] Use synth to add audio to visualization
 
 ## Equipment
     
