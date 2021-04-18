@@ -55,10 +55,11 @@ The research currently has two approaches:
 
 ### Tools
   - Soldering iron (Aoyue 3210)
-  - Excess tin sucker
-  - Magnifying glass
+  - Solder suction device
+  - Soldering magnifying glass with LED
   - Multimeter
   - Laptop XPS13 w/ubuntu 20.10
+  - Gaggia Classis Espresso Machine
 
 ## Videos
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
