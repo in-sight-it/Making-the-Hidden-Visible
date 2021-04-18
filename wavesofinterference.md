@@ -42,7 +42,10 @@ The research currently has two approaches:
   - 4G LTE antena outdoor SMA 12dBi Omni antenne 3G TS9 male 5m 2.4GHz CRC9 TS9 for Huawei B315 E8372 E3372 ZTE routers
 
 ### Software
-  - Open5Gs (excellently dockerized here: https://github.com/herlesupreeth/docker_open5gs )
+  - UHD (to talk to the B210: https://github.com/EttusResearch/uhd)
+  - GNURadio (to experiment with the B210 and understand its concepts: https://github.com/gnuradio/gnuradio)
+  - PyBOMBS (to deploy GNURadio packages: https://github.com/gnuradio/pybombs)
+  - Open5Gs (excellently dockerized here: https://github.com/herlesupreeth/docker_open5gs)
   - Portainer (vizualise, inspect, and monitor dockers)
   - Weavescope & ctop (to visualize traffic between containers)
   - Ledcube firmware (https://github.com/yarivkeinan/8x8x8-led-cube-firmware)
