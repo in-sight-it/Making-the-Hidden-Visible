@@ -42,6 +42,7 @@ The research currently has two approaches:
   - 4G LTE antena outdoor SMA 12dBi Omni antenne 3G TS9 male 5m 2.4GHz CRC9 TS9 for Huawei B315 E8372 E3372 ZTE routers
 
 ### Software
+  - Ubuntu 20.04 LTS (as development platform (Debian doesn't support new laptop hardware, newer Ubuntu versions are not supported by all drivers, leading to significant issues with software dependencies when building everything from source). 
   - UHD (to talk to the B210: <https://github.com/EttusResearch/uhd>)
   - GNURadio (to experiment with the B210 and understand its concepts: <https://github.com/gnuradio/gnuradio>)
   - PyBOMBS (to deploy GNURadio packages: <https://github.com/gnuradio/pybombs>)
@@ -58,9 +59,16 @@ The research currently has two approaches:
   - Solder suction device
   - Soldering magnifying glass with LED
   - Multimeter
-  - Laptop XPS13 w/ubuntu 20.10
-  - Gaggia Classis Espresso Machine
-
+  - Laptop XPS13 w/ubuntu 20.04 LTS
+  - Gaggia Classic Espresso Machine
+  
+### Workshop outline
+  - Ask people to communicate a complex standards over a distance without using their voice
+  - Let people communicate using the semaphore flags standard
+  - Introduce morse and show that was used in telegraph communications
+  - Show by using led cube how a network transmits more signal
+  - Show with led cube evolution of complexity from telegraph, to PSTN (circuit switching), GSM (mobility), 3G (data), 4G (everything over IP), 5G (more microservices and edge computing).
+  
 ## Videos
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
   - [Casemodding to fit GPS-DO](https://www.youtube.com/watch?v=V1i42qqgNYY)
