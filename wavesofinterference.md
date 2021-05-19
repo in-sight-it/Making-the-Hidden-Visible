@@ -1,5 +1,3 @@
-# Waves of Interference 5G lab
-
 This in an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos seek to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
 
 The research currently has two approaches:
