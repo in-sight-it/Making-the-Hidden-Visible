@@ -30,7 +30,8 @@ The research currently has two approaches:
 ### Hardware
   - USRP B210 SDR Kit 2x2 (70 MHz - 6GHz) - Ettus Research <https://www.ettus.com/all-products/ub210-kit/>
   - SIMs - sysmoISIM-SJA2-10p-adm sysmoISIM-SJA2 SIM + USIM + ISIM Card (10-pack)
-  - 100 MHz GPS Disciplined Oscillator (I should have gotten the 10 MHz one)
+  - ebay 100 MHz GPS Disciplined Oscillator (I should have gotten the 10 MHz one) // Failed after two months
+  - Board Mounted GPSDO (TCXO) - Ettus Research <https://www.ettus.com/all-products/gpsdo-tcxo-module/>
   - Several SMA Male to SMA Male RG58 50ohm Coaxial Cable SMA Plug WiFi Antenna Extension Cable Connector Adapter Pigtail
   - Geekcreit® 8x8x8 LED Cube 3D Light Square Blue LED Electronic DIY Kit
 
@@ -53,6 +54,48 @@ The research currently has two approaches:
   - Ledcube serial access JTAG (<https://github.com/tomazas/ledcube8x8x8>)
   - Ledcube Java program to control LEDS (and Hex data stream standard) <https://github.com/tomazas/DotMatrixJava>
   - PySim (to read+write SIMcards: <https://github.com/osmocom/pysim>)
+  	- for PySim to run on Ubuntu 20.04 one needs to install pcscd and pcsc-tools and start the daemon:
+  		- $ sudo apt install pcscd pcsc-tools
+		- $ sudo service pcscd start
+	- Follow PySim installation instructions and $ python3 ./pySim-read.py -p0 (or -p1) should work 
+	
+### Config
+  - Change the environment file (.env) in docker_open5gs
+	  - MCC 204 #which is the code for NL
+	  - MNC 42 #which is an unused operator number
+	  - Card 1
+		$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 43284945 -x 204 -y 42 -i 204420000000001 -s 8988211000000472202 -o C10CB11F8743F39B3E73A61A772794BF -k 1FE6F93E061AF90A57DC00631F324CCC
+		Using PC/SC reader interface
+		Ready for Programming: Insert card now (or CTRL-C to cancel)
+		Generated card parameters :
+			 > Name     : Peoples5GLab
+			 > SMSP     : e1ffffffffffffffffffffffff0581005155f5ffffffffffff000000
+			 > ICCID    : 8988211000000472202
+			 > MCC/MNC  : 204/42
+			 > IMSI     : 204420000000001
+			 > Ki       : 1FE6F93E061AF90A57DC00631F324CCC
+			 > OPC      : C10CB11F8743F39B3E73A61A772794BF
+			 > ACC      : None
+			 > ADM1(hex): 3433323834393435
+			 > OPMODE   : None
+			 
+	  - Card 2 
+	  	$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 94800032 -x 204 -y 42 -i 204420000000002 -s 8988211000000472293 -o A84E9EB56739F7F30735004E020D3D2B -k E31AA81800AA6CCD13E0DC6FA656363F
+		Using PC/SC reader interface
+		Ready for Programming: Insert card now (or CTRL-C to cancel)
+		Generated card parameters :
+			 > Name     : Peoples5GLab
+			 > SMSP     : e1ffffffffffffffffffffffff0581005155f5ffffffffffff000000
+			 > ICCID    : 8988211000000472293
+			 > MCC/MNC  : 204/42
+			 > IMSI     : 204420000000002
+			 > Ki       : E31AA81800AA6CCD13E0DC6FA656363F
+			 > OPC      : A84E9EB56739F7F30735004E020D3D2B
+			 > ACC      : None
+			 > ADM1(hex): 3934383030303332
+			 > OPMODE   : None
+
+
 
 ### Tools
   - Soldering iron (Aoyue 3210)
@@ -69,9 +112,75 @@ The research currently has two approaches:
   - Show by using led cube how a network transmits more signal
   - Show with led cube evolution of complexity from telegraph, to PSTN (circuit switching), GSM (mobility), 3G (data), 4G (everything over IP), 5G (more microservices and edge computing).
   
+### Hardware failure
+  - Cheap hardware failure. Lesson learned: do not buy cheap hardware.
+  - The ebay OCXO GPSDO failed after two months with:
+		  	$ ./sync_to_gps 
+
+		Creating the USRP device with: ...
+		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
+		[INFO] [B200] Detected Device: B210
+		[INFO] [B200] Operating over USB 3.
+		[INFO] [B200] Detecting internal GPSDO.... 
+		[INFO] [GPS] Found a generic NMEA GPS device
+		[INFO] [B200] Initialize CODEC control...
+		[INFO] [B200] Initialize Radio control...
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Setting master clock rate selection to 'automatic'.
+		[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+		[INFO] [B200] Actually got clock rate 16.000000 MHz.
+		Using Device: Single USRP:
+		  Device: B-Series Device
+		  Mboard 0: B210
+		  RX Channel: 0
+		    RX DSP: 0
+		    RX Dboard: A
+		    RX Subdev: FE-RX2
+		  RX Channel: 1
+		    RX DSP: 1
+		    RX Dboard: A
+		    RX Subdev: FE-RX1
+		  TX Channel: 0
+		    TX DSP: 0
+		    TX Dboard: A
+		    TX Subdev: FE-TX2
+		  TX Channel: 1
+		    TX DSP: 1
+		    TX Dboard: A
+		    TX Subdev: FE-TX1
+
+		Synchronizing mboard 0: B210
+
+		**************************************Helpful Notes on Clock/PPS Selection**************************************
+		As you can see, the default 10 MHz Reference and 1 PPS signals are now from the GPSDO.
+		If you would like to use the internal reference(TCXO) in other applications, you must configure that explicitly.
+		You can no longer select the external SMAs for 10 MHz or 1 PPS signaling.
+		****************************************************************************************************************
+
+		Waiting for reference lock....LOCKED
+		[WARNING] [GPS] update_cache: Malformed GPSDO string: $GPGGA,002811.058,0000.0000,N,00000.0000,E,0,00,,,M,,,,0000*09
+		[WARNING] [GPS] update_cache: Malformed GPSDO string: $GPGGA,002811.058,0000.0000,N,00000.0000,E,0,00,,,M,,,,0000*09
+		[WARNING] [GPS] update_cache: Malformed GPSDO string: $GPGGA,002811.058,0000.0000,N,00000.0000,E,0,00,,,M,,,,0000*09
+		[WARNING] [GPS] update_cache: Malformed GPSDO string: $GPGGA,002811.058,0000.0000,N,00000.0000,E,0,00,,,M,,,,0000*09
+
+		Error: ValueError: locked(): unable to determine GPS lock statusThis could mean that you have not installed the GPSDO correctly.
+
+		Visit one of these pages if the problem persists:
+		 * N2X0/E1X0: http://files.ettus.com/manual/page_gpsdo.html * X3X0: http://files.ettus.com/manual/page_gpsdo_x3x0.html
+
+		 * E3X0: http://files.ettus.com/manual/page_usrp_e3x0.html#e3x0_hw_gps
+
+  
 ## Videos
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
   - [Casemodding to fit GPS-DO](https://www.youtube.com/watch?v=V1i42qqgNYY)
+
+
+
+
 
 ## Acknowledgents
   - Albert ten Oever, LAG Hackerspace, Arnd 'Justa' TechInc
