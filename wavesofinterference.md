@@ -17,7 +17,11 @@ The research currently has two approaches:
 ## Current project:
   - [DONE] Get 4G LTE network working
   - [DONE] Get 5G network working
-  - [In Progress] Program SIM cards to get range of devices registered to network
+  - [DONE] Program SIM cards 
+  - [DONE] Register software devices to network (UERANSIM)
+    	- Short halt because of broken GPS DO - ordered new one from Ettus
+  - [DONE] Install new GPS DO TCXO
+  - [In Progress] Get radio network working and register on the network
   - [In Progress] Visualize 5G network traffic on laptop
   - [In Progress] Visualize 5G network traffic on LED cube
   - [Next] Run edge services in 5G network
@@ -172,14 +176,66 @@ The research currently has two approaches:
 		 * N2X0/E1X0: http://files.ettus.com/manual/page_gpsdo.html * X3X0: http://files.ettus.com/manual/page_gpsdo_x3x0.html
 
 		 * E3X0: http://files.ettus.com/manual/page_usrp_e3x0.html#e3x0_hw_gps
+		 
+  - The new Ettus TCXO arrived and it gives me an excellent lock:
+  
+		  	$ ./sync_to_gps 
+
+		Creating the USRP device with: ...
+		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
+		[INFO] [B200] Detected Device: B210
+		[INFO] [B200] Operating over USB 3.
+		[INFO] [B200] Detecting internal GPSDO.... 
+		[INFO] [GPS] Found an internal GPSDO: GPSTCXO, Firmware Rev 0.929b
+		[INFO] [B200] Initialize CODEC control...
+		[INFO] [B200] Initialize Radio control...
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Setting master clock rate selection to 'automatic'.
+		[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+		[INFO] [B200] Actually got clock rate 16.000000 MHz.
+		Using Device: Single USRP:
+		  Device: B-Series Device
+		  Mboard 0: B210
+		  RX Channel: 0
+		    RX DSP: 0
+		    RX Dboard: A
+		    RX Subdev: FE-RX2
+		  RX Channel: 1
+		    RX DSP: 1
+		    RX Dboard: A
+		    RX Subdev: FE-RX1
+		  TX Channel: 0
+		    TX DSP: 0
+		    TX Dboard: A
+		    TX Subdev: FE-TX2
+		  TX Channel: 1
+		    TX DSP: 1
+		    TX Dboard: A
+		    TX Subdev: FE-TX1
+
+		Synchronizing mboard 0: B210
+
+		**************************************Helpful Notes on Clock/PPS Selection**************************************
+		As you can see, the default 10 MHz Reference and 1 PPS signals are now from the GPSDO.
+		If you would like to use the internal reference(TCXO) in other applications, you must configure that explicitly.
+		You can no longer select the external SMAs for 10 MHz or 1 PPS signaling.
+		****************************************************************************************************************
+
+		Waiting for reference lock....LOCKED
+		GPS Locked
+		USRP time: 1623256927.000000000
+		GPSDO time: 1623256927.000000000
+
+		SUCCESS: USRP time synchronized to GPS time
+
 
   
 ## Videos
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
   - [Casemodding to fit GPS-DO](https://www.youtube.com/watch?v=V1i42qqgNYY)
-
-
-
 
 
 ## Acknowledgents
