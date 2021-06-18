@@ -22,8 +22,12 @@ The research currently has two approaches:
     	- Short halt because of broken GPS DO - ordered new one from Ettus
   - [DONE] Install new GPS DO TCXO
   - [In Progress] Get radio network working and register on the network
+  	- Phones are not picking up radio network, might be cheap 4G antenna?
+  	- Try with logarithmic antennae
   - [In Progress] Visualize 5G network traffic on laptop
+  	- Weavescope & ctop & sysdig & sysdiginspect
   - [In Progress] Visualize 5G network traffic on LED cube
+  	- New code (!) <https://github.com/agtoever/tcpdump2led/blob/master/tcpdump2led.py>
   - [Next] Run edge services in 5G network
   - [Next] Visualize edge services in 5G on laptop
   - [Next] Visualize edge services in 5G on laptop on LED cube
@@ -34,7 +38,7 @@ The research currently has two approaches:
 ### Hardware
   - USRP B210 SDR Kit 2x2 (70 MHz - 6GHz) - Ettus Research <https://www.ettus.com/all-products/ub210-kit/>
   - SIMs - sysmoISIM-SJA2-10p-adm sysmoISIM-SJA2 SIM + USIM + ISIM Card (10-pack)
-  - ebay 100 MHz GPS Disciplined Oscillator (I should have gotten the 10 MHz one) // Failed after two months
+  - ebay 100 MHz GPS Disciplined Oscillator // Failed after two months -> DON'T BE TEMPTED TO GET THIS ONE
   - Board Mounted GPSDO (TCXO) - Ettus Research <https://www.ettus.com/all-products/gpsdo-tcxo-module/>
   - Several SMA Male to SMA Male RG58 50ohm Coaxial Cable SMA Plug WiFi Antenna Extension Cable Connector Adapter Pigtail
   - Geekcreit® 8x8x8 LED Cube 3D Light Square Blue LED Electronic DIY Kit
@@ -231,6 +235,79 @@ The research currently has two approaches:
 
 		SUCCESS: USRP time synchronized to GPS time
 
+   Funny detail: When I ran it the first time the malformed string from the previous GPS DO was apparently still in the cache, causing me to freak out for a moment!! 
+   		[WARNING] [GPS] update_cache: Malformed GPSDO string: GPSTCXO, Firmware Rev 0.929b
+
+   Some more detail:
+
+			$ /lib/uhd/utils/query_gpsdo_sensors 
+
+		[Creating the USRP device with: ...
+		INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
+		[WARNING] [UHD] Unable to set the thread priority. Performance may be negatively affected.
+		Please see the general application notes in the manual for instructions.
+		EnvironmentError: OSError: error in pthread_setschedparam
+		[INFO] [B200] Detected Device: B210
+		[INFO] [B200] Operating over USB 3.
+		[INFO] [B200] Detecting internal GPSDO.... 
+		[INFO] [GPS] Found an internal GPSDO: GPSTCXO, Firmware Rev 0.929b
+		[INFO] [B200] Initialize CODEC control...
+		[INFO] [B200] Initialize Radio control...
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Performing register loopback test... 
+		[INFO] [B200] Register loopback test passed
+		[INFO] [B200] Setting master clock rate selection to 'automatic'.
+		[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+		[INFO] [B200] Actually got clock rate 16.000000 MHz.
+		Using Device: Single USRP:
+		  Device: B-Series Device
+		  Mboard 0: B210
+		  RX Channel: 0
+		    RX DSP: 0
+		    RX Dboard: A
+		    RX Subdev: FE-RX2
+		  RX Channel: 1
+		    RX DSP: 1
+		    RX Dboard: A
+		    RX Subdev: FE-RX1
+		  TX Channel: 0
+		    TX DSP: 0
+		    TX Dboard: A
+		    TX Subdev: FE-TX2
+		  TX Channel: 1
+		    TX DSP: 1
+		    TX Dboard: A
+		    TX Subdev: FE-TX1
+
+		Setting the reference clock source to "gpsdo"...
+		Clock source is now gpsdo
+		Setting the reference clock source to "gpsdo"...
+		Time source is now gpsdo
+		Waiting for ref_locked...USRP Locked to Reference.
+		**************************************Helpful Notes on Clock/PPS Selection**************************************
+		As you can see, the default 10 MHz Reference and 1 PPS signals are now from the GPSDO.
+		If you would like to use the internal reference(TCXO) in other applications, you must configure that explicitly.
+		****************************************************************************************************************
+		Waiting for the GPSDO to warm up...
+		The GPSDO is warmed up and talking.
+
+		GPS does not have lock. Wait a few minutes and try again.
+		NMEA strings and device time may not be accurate until lock is achieved.
+
+
+		Trying to align the device time to GPS time...
+		GPS and UHD Device time are aligned.
+		last_pps: 1624027114 vs gps: 1624027114.
+		Printing available NMEA strings:
+		GPS_GPGGA: $GPGGA,143834.00,5221.2515,N,00451.2612,E,0,05,3.2,21.0,M,45.9,M,,*5B 
+		GPS_GPRMC: $GPRMC,143834.00,V,5221.2515,N,00451.2612,E,0.2,0.0,180621,,*23 
+		GPS Epoch time at last PPS: 1624027115.00000 seconds
+		UHD Device time last PPS:   1624027115.00000 seconds
+		UHD Device time right now:  1624027115.01646 seconds
+		PC Clock time:              1624027112 seconds
+
+		Done!
 
   
 ## Videos
