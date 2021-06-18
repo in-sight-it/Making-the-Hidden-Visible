@@ -21,14 +21,16 @@ The research currently has two approaches:
   - [DONE] Register software devices to network (UERANSIM)
     	- Short halt because of broken GPS DO - ordered new one from Ettus
   - [DONE] Install new GPS DO TCXO
-  - [In Progress] Get radio network working and register on the network
+  - [DONE] Get radio network working and register on the network
   	- Phones are not picking up radio network, might be cheap 4G antenna?
   	- Try with logarithmic antennae
+  	- Was not an issue with antennae but with a config in the dockers, was fixed with a git pull - always use updated software kids :)
   - [In Progress] Visualize 5G network traffic on laptop
   	- Weavescope & ctop & sysdig & sysdiginspect
   - [In Progress] Visualize 5G network traffic on LED cube
   	- New code (!) <https://github.com/agtoever/tcpdump2led/blob/master/tcpdump2led.py>
   - [Next] Run edge services in 5G network
+  	- Ideally a service that uses precise geolocation and timing date from the network
   - [Next] Visualize edge services in 5G on laptop
   - [Next] Visualize edge services in 5G on laptop on LED cube
   - [Next] Use synth to add audio to visualization
