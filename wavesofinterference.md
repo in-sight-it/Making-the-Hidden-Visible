@@ -21,10 +21,10 @@ The research currently has two approaches:
   - [DONE] Register software devices to network (UERANSIM)
     	- Short halt because of broken GPS DO - ordered new one from Ettus
   - [DONE] Install new GPS DO TCXO
-  - [DONE] Get radio network working and register on the network
-  	- Phones are not picking up radio network, might be cheap 4G antenna?
-  	- Try with logarithmic antennae
-  	- Was not an issue with antennae but with a config in the dockers, was fixed with a git pull - always use updated software kids :)
+  - [DONE] Get radio network working and register on the network  
+  	- Phones are not picking up radio network, might be cheap 4G antenna?  
+  	- Try with logarithmic antennae  
+  	- Was not an issue with antennae but with a config in the dockers, was fixed with a git pull - always use updated software kids :)  
   - [In Progress] Visualize 5G network traffic on laptop
   	- Weavescope & ctop & sysdig & sysdiginspect
   - [In Progress] Visualize 5G network traffic on LED cube
@@ -63,11 +63,11 @@ The research currently has two approaches:
   - Ledcube firmware (<https://github.com/yarivkeinan/8x8x8-led-cube-firmware>)
   - Ledcube serial access JTAG (<https://github.com/tomazas/ledcube8x8x8>)
   - Ledcube Java program to control LEDS (and Hex data stream standard) <https://github.com/tomazas/DotMatrixJava>
-  - PySim (to read+write SIMcards: <https://github.com/osmocom/pysim>)
-  	- for PySim to run on Ubuntu 20.04 one needs to install pcscd and pcsc-tools and start the daemon:
-  		- $ sudo apt install pcscd pcsc-tools
-		- $ sudo service pcscd start
-	- Follow PySim installation instructions and $ python3 ./pySim-read.py -p0 (or -p1) should work 
+  - PySim (to read+write SIMcards: <https://github.com/osmocom/pysim>)  
+  	- for PySim to run on Ubuntu 20.04 one needs to install pcscd and pcsc-tools and start the daemon:  
+  		- $ sudo apt install pcscd pcsc-tools  
+		- $ sudo service pcscd start  
+	- Follow PySim installation instructions and $ python3 ./pySim-read.py -p0 (or -p1) should work  
 	
 ### Config
   - Change the environment file (.env) in docker_open5gs
@@ -90,7 +90,7 @@ The research currently has two approaches:
 			 > OPMODE   : None
 			 
 	  - Card 2 
-	  	$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 94800032 -x 204 -y 42 -i 204420000000002 -s 8988211000000472293 -o A84E9EB56739F7F30735004E020D3D2B -k E31AA81800AA6CCD13E0DC6FA656363F
+	  	$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 94800032 -x 204 -y 42 -i 204420000000002 -s 8988211000000472293 -o A84E9EB56739F7F30735004E020D3D2B -k E31AA81800AA6CCD13E0DC6FA656363F  
 		Using PC/SC reader interface
 		Ready for Programming: Insert card now (or CTRL-C to cancel)
 		Generated card parameters :
@@ -125,7 +125,7 @@ The research currently has two approaches:
 ### Hardware failure
   - Cheap hardware failure. Lesson learned: do not buy cheap hardware.
   - The ebay OCXO GPSDO failed after two months with:
-		  	$ ./sync_to_gps 
+		  	$ ./sync_to_gps  
 
 		Creating the USRP device with: ...
 		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
@@ -185,7 +185,7 @@ The research currently has two approaches:
 		 
   - The new Ettus TCXO arrived and it gives me an excellent lock:
   
-		  	$ ./sync_to_gps 
+		  	$ ./sync_to_gps  
 
 		Creating the USRP device with: ...
 		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
@@ -240,9 +240,9 @@ The research currently has two approaches:
    Funny detail: When I ran it the first time the malformed string from the previous GPS DO was apparently still in the cache, causing me to freak out for a moment!! 
    		[WARNING] [GPS] update_cache: Malformed GPSDO string: GPSTCXO, Firmware Rev 0.929b
 
-   Some more detail:
+   Some more detail:  
 
-			$ /lib/uhd/utils/query_gpsdo_sensors 
+			$ /lib/uhd/utils/query_gpsdo_sensors   
 
 		[Creating the USRP device with: ...
 		INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
