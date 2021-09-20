@@ -42,8 +42,13 @@ navigation_header:
   url: /academicboard/
 - title: Valorization Board
   url: /valorizationboard/
+- title: Publications
+  url: /publications/
+- title: Outreach/
+  url: /outreach/
 - title: Waves of Interference 5G Lab
   url: /wavesofinterference/
+
 
 
 # Footer nav
