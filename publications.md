@@ -1,5 +1,9 @@
 A selection of academic publications and media appearances related to IN-SIGHT.it:
 
+**Postition Papers**
+
+Maxigas and ten Oever, Niels. [The People’s 5G Laboratory: Critical Perspectives on Media Technologies](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf) (2021)
+
 **Media**
 
 - [Email is an awful online ID that we use for almost everything.](https://www.vox.com/recode/22620276/what-to-do-when-you-get-someone-elses-email-security-vulnerabilities-gmail-inbox-invasion")
@@ -11,7 +15,7 @@ Interview in De Lichtkogel
 - [Who owns the internet?](https://theface.com/society/internet-outage-fastly-amazon-cloudflare-cnd)
 Extended quotes in an article in The Face magazine
 
-[What really went down when the internet went down](https://www.wired.co.uk/article/fastly-internet-outage)
+- [What really went down when the internet went down](https://www.wired.co.uk/article/fastly-internet-outage)
 Extended quotes in article in Wired
 
 **Reports**
@@ -27,11 +31,11 @@ Interview with NWO-MVI (the Dutch Research Council - Platform for Responsible In
 
 **Academic publications**
 
-ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology (SIIT 2021)
+- ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology (SIIT 2021)
 
-ten Oever, Niels (2021) Norm conflict in the governance of transnational and distributed infrastructures: the case of Internet routing, Globalizations, DOI: (doi:10.1080/14747731.2021.1953221)
+- ten Oever, Niels (2021) [Norm conflict in the governance of transnational and distributed infrastructures: the case of Internet routing](https://www.tandfonline.com/doi/pdf/10.1080/14747731.2021.1953221), Globalizations, DOI: (doi:10.1080/14747731.2021.1953221)
 
-ten Oever, Niels (2021) “This is not how we imagined it”: Technological affordances, economic drivers, and the Internet architecture imaginary. New Media & Society. 2021;23(2):344-362. (doi:10.1177/1461444820929320)
+- ten Oever, Niels (2021) [“This is not how we imagined it”: Technological affordances, economic drivers, and the Internet architecture imaginary](https://journals.sagepub.com/doi/full/10.1177/1461444820929320). New Media & Society. 2021;23(2):344-362. (doi:10.1177/1461444820929320)
 
 **Policy Documents**
 

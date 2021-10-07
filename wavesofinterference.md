@@ -2,7 +2,9 @@
 
 This in an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos seek to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
 
-The research currently has two approaches:
+To provide this research project with a strong theoretical, technical, and social foundation, we have developed a [position paper](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf). Comments on this position paper are very welcome, and we seek to update the document when new insights arise. Previous versions will be stored here as well.  
+
+The research currently has two going parts:
 
 **1. Examinging social media platforms and website to identify interpetative frames of 5G**
   
@@ -22,8 +24,8 @@ The research currently has two approaches:
     	- Short halt because of broken GPS DO - ordered new one from Ettus
   - [DONE] Install new GPS DO TCXO
   - [DONE] Get radio network working and register on the network  
-  	- Phones are not picking up radio network, might be cheap 4G antenna?  
-  	- Try with logarithmic antennae  
+	- Phones are not picking up radio network, might be cheap 4G antenna?  
+	- Try with logarithmic antennae  
   	- Was not an issue with antennae but with a config in the dockers, was fixed with a git pull - always use updated software kids :)  
   - [In Progress] Visualize 5G network traffic on laptop
   	- Weavescope & ctop & sysdig & sysdiginspect
@@ -185,7 +187,7 @@ The research currently has two approaches:
 		 
   - The new Ettus TCXO arrived and it gives me an excellent lock:
   
-		  	$ ./sync_to_gps  
+		  	$ /usr/lib/uhd/examples/sync_to_gps  
 
 		Creating the USRP device with: ...
 		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
