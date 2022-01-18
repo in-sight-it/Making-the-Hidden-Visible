@@ -51,6 +51,7 @@ Interview with NWO-MVI (the Dutch Research Council - Platform for Responsible In
 Blog on Ripe Labs
 
 **Workshops**
+[GigaNet’s workshop on Internet Standard Setting Research Methods](https://www.giga-net.org/12-january-2022-giganets-workshop-on-internet-standard-setting-research-methods/)
 
 [Show me the numbers: Workshop on Analyzing IETF Data (AID), 2021](https://www.iab.org/activities/workshops/aid/)
 
