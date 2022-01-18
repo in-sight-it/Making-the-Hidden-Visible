@@ -5,6 +5,8 @@ A selection of academic publications and media appearances related to IN-SIGHT.i
 Maxigas and ten Oever, Niels. [The People’s 5G Laboratory: Critical Perspectives on Media Technologies](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf) (2021)
 
 **Media**
+- [What is Web3 and how will it change the way we use the internet?](https://www.newscientist.com/article/2301706-what-is-web3-and-how-will-it-change-the-way-we-use-the-internet/#ixzz7IJt5pmf6)
+Extended quotes in an article in The New Scientist
 
 - [Email is an awful online ID that we use for almost everything.](https://www.vox.com/recode/22620276/what-to-do-when-you-get-someone-elses-email-security-vulnerabilities-gmail-inbox-invasion")
 Extended quote in an article in Vox' RECODE
