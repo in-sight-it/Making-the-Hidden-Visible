@@ -31,6 +31,8 @@ Interview with NWO-MVI (the Dutch Research Council - Platform for Responsible In
 
 **Academic publications**
 
+- Li, Xue., Magliacane, Sara., and Groth, Paul. (2021) [The Challenges of Cross-Document Coreference Resolution for Email](https://dl.acm.org/doi/abs/10.1145/3460210.3493573) in: Proceedings of the 11th on Knowledge Capture Conference 2021. DOI: (doi:-0.1145/3460210.3493573)
+
 - ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology (SIIT 2021)
 
 - ten Oever, Niels (2021) [Norm conflict in the governance of transnational and distributed infrastructures: the case of Internet routing](https://www.tandfonline.com/doi/pdf/10.1080/14747731.2021.1953221), Globalizations, DOI: (doi:10.1080/14747731.2021.1953221)
