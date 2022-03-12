@@ -27,6 +27,12 @@ The research currently has two going parts:
 	- Phones are not picking up radio network, might be cheap 4G antenna?  
 	- Try with logarithmic antennae  
   	- Was not an issue with antennae but with a config in the dockers, was fixed with a git pull - always use updated software kids :)  
+  	- Purchased new antennae from Ettus
+  - [In Progress] Registration works until Osmohlr kicks us off the network, see: https://github.com/herlesupreeth/docker_open5gs/issues/74
+  		- tried to make changes to oshmohlr.cfg
+  			hlr
+			 subscriber-create-on-demand 5 cs+ps
+	          to no avail
   - [In Progress] Visualize 5G network traffic on laptop
   	- Weavescope & ctop & sysdig & sysdiginspect
   - [In Progress] Visualize 5G network traffic on LED cube
@@ -44,6 +50,7 @@ The research currently has two going parts:
   - SIMs - sysmoISIM-SJA2-10p-adm sysmoISIM-SJA2 SIM + USIM + ISIM Card (10-pack)
   - ebay 100 MHz GPS Disciplined Oscillator // Failed after two months -> DON'T BE TEMPTED TO GET THIS ONE
   - Board Mounted GPSDO (TCXO) - Ettus Research <https://www.ettus.com/all-products/gpsdo-tcxo-module/>
+  - Two  VERT2450 Antenna https://www.ettus.com/all-products/vert2450/
   - Several SMA Male to SMA Male RG58 50ohm Coaxial Cable SMA Plug WiFi Antenna Extension Cable Connector Adapter Pigtail
   - Geekcreit® 8x8x8 LED Cube 3D Light Square Blue LED Electronic DIY Kit
 
@@ -53,12 +60,12 @@ The research currently has two going parts:
   - 600M-16G Broadband Log Periodoc Antenna Directional Antenna UWB Wifi Antenna
   - UWB Log Periodic antenna 740-6000 MHz Ultra Wideband Logperiodic Antenna Board
   - 4G LTE antena outdoor SMA 12dBi Omni antenne 3G TS9 male 5m 2.4GHz CRC9 TS9 for Huawei B315 E8372 E3372 ZTE routers
+  - 2 x VERT2450 Antenna https://www.ettus.com/all-products/vert2450/
 
 ### Software
-  - Ubuntu 20.04 LTS (as development platform (Debian doesn't support new laptop hardware, newer Ubuntu versions are not supported by all drivers, leading to significant issues with software dependencies when building everything from source). 
+  - Ubuntu 22.04 LTS (as development platform (Debian doesn't support new laptop hardware, newer Ubuntu versions are not supported by all drivers, leading to significant issues with software dependencies when building everything from source). 
   - UHD (to talk to the B210: <https://github.com/EttusResearch/uhd>)
   - GNURadio (to experiment with the B210 and understand its concepts: <https://github.com/gnuradio/gnuradio>)
-  - PyBOMBS (to deploy GNURadio packages: <https://github.com/gnuradio/pybombs>)
   - Open5Gs (excellently dockerized here: <https://github.com/herlesupreeth/docker_open5gs>)
   - Portainer (vizualise, inspect, and monitor dockers)
   - Weavescope & ctop & sysdig & sysdiginspect (to visualize traffic between containers)
@@ -66,7 +73,7 @@ The research currently has two going parts:
   - Ledcube serial access JTAG (<https://github.com/tomazas/ledcube8x8x8>)
   - Ledcube Java program to control LEDS (and Hex data stream standard) <https://github.com/tomazas/DotMatrixJava>
   - PySim (to read+write SIMcards: <https://github.com/osmocom/pysim>)  
-  	- for PySim to run on Ubuntu 20.04 one needs to install pcscd and pcsc-tools and start the daemon:  
+  	- for PySim to run on Ubuntu 22.04 one needs to install pcscd and pcsc-tools and start the daemon:  
   		- $ sudo apt install pcscd pcsc-tools  
 		- $ sudo service pcscd start  
 	- Follow PySim installation instructions and $ python3 ./pySim-read.py -p0 (or -p1) should work  
@@ -76,6 +83,8 @@ The research currently has two going parts:
 	  - MCC 204 #which is the code for NL
 	  - MNC 42 #which is an unused operator number
 	  - Card 1
+~~~
+
 		$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 43284945 -x 204 -y 42 -i 204420000000001 -s 8988211000000472202 -o C10CB11F8743F39B3E73A61A772794BF -k 1FE6F93E061AF90A57DC00631F324CCC
 		Using PC/SC reader interface
 		Ready for Programming: Insert card now (or CTRL-C to cancel)
@@ -90,8 +99,11 @@ The research currently has two going parts:
 			 > ACC      : None
 			 > ADM1(hex): 3433323834393435
 			 > OPMODE   : None
-			 
+~~~
+ 
 	  - Card 2 
+~~~
+
 	  	$ python3 ./pySim-prog.py -p 0 -t sysmoISIM-SJA2 -n Peoples5GLab -a 94800032 -x 204 -y 42 -i 204420000000002 -s 8988211000000472293 -o A84E9EB56739F7F30735004E020D3D2B -k E31AA81800AA6CCD13E0DC6FA656363F  
 		Using PC/SC reader interface
 		Ready for Programming: Insert card now (or CTRL-C to cancel)
@@ -107,6 +119,7 @@ The research currently has two going parts:
 			 > ADM1(hex): 3934383030303332
 			 > OPMODE   : None
 
+~~~
 
 
 ### Tools
@@ -128,6 +141,8 @@ The research currently has two going parts:
   - Cheap hardware failure. Lesson learned: do not buy cheap hardware.
   - The ebay OCXO GPSDO failed after two months with:
 		  	$ ./sync_to_gps  
+
+~~~
 
 		Creating the USRP device with: ...
 		[INFO] [UHD] linux; GNU C++ version 9.3.0; Boost_107100; UHD_3.15.0.0-release
@@ -239,11 +254,14 @@ The research currently has two going parts:
 
 		SUCCESS: USRP time synchronized to GPS time
 
+~~~
+
    Funny detail: When I ran it the first time the malformed string from the previous GPS DO was apparently still in the cache, causing me to freak out for a moment!! 
    		[WARNING] [GPS] update_cache: Malformed GPSDO string: GPSTCXO, Firmware Rev 0.929b
 
    Some more detail:  
 
+~~~
 			$ /lib/uhd/utils/query_gpsdo_sensors   
 
 		[Creating the USRP device with: ...
@@ -312,7 +330,7 @@ The research currently has two going parts:
 		PC Clock time:              1624027112 seconds
 
 		Done!
-
+~~~
   
 ## Videos
   - [Installing the GPS-DO](https://www.youtube.com/watch?v=HrnWpnW-Gfg)
