@@ -1,10 +1,27 @@
 A selection of academic publications and media appearances related to IN-SIGHT.it:
 
 **Postition Papers**
+ten Oever, Niels. [Towards the Multistakeholder Imposition of Internet Sanctions](https://techpolicy.press/towards-the-multistakeholder-imposition-of-internet-sanctions/) (2022)
 
 Maxigas and ten Oever, Niels. [The People’s 5G Laboratory: Critical Perspectives on Media Technologies](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf) (2021)
 
 **Media**
+
+- [Ukraine invasion: We should consider internet sanctions, says ICANN ex-CEO](https://www.theregister.com/AMP/2022/03/10/internet_russia_sanctions/)
+Mention in article of researcher and initiative project contributed towards in The Register
+
+- [Welke knop doet Rusland van het internet verdwijnen?](https://www.nrc.nl/nieuws/2022/03/11/welke-knop-doet-rusland-van-het-internet-verdwijnen-a4100649)
+Mention and quote in article of research and initiative project contributed towards in NRC
+
+- [Internet experts suggest ways to selectively block Russian military and propaganda sites](https://www.washingtonpost.com/technology/2022/03/10/internet-russia-sanctions-proposal/)
+Mention in article of initiative project contributed towards in Washington Post
+
+- [Experts: How to impose internet sanctions on Russia](https://apnews.com/article/russia-ukraine-technology-business-europe-8909762f92d1982acb6fca4e6dc2d183)
+Mention in article of initiative project contributed towards on AP News
+
+- [Gezielte Internetsperren gegen Russland: Die Netz-Community will aktiv werden](https://www.heise.de/news/Gezielte-Internetsperren-gegen-Russland-Die-Netz-Community-will-aktiv-werden-6545003.html)
+Mention in article of initiative project contributed towards in Heise
+
 - [What is Web3 and how will it change the way we use the internet?](https://www.newscientist.com/article/2301706-what-is-web3-and-how-will-it-change-the-way-we-use-the-internet/#ixzz7IJt5pmf6)
 Extended quotes in an article in The New Scientist
 
