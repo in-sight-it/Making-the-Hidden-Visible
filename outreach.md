@@ -1,3 +1,15 @@
+**May 2022**
+
+[Workshop Data Streams in the City](https://www.oba.nl/agenda/dehallen/workshopdatastromenindestadvormgevenaanamsterdamsedatainfrastructuren.html)
+
+**April 2022**
+
+[IN-SIGHT.it kick-off event: Citizenship and standard-setting in digital networks.](https://insightit-kickoff-event.nen-evenementen.nl/)
+
+**March 2022**
+
+[5G infrastructure walk at Bijlmer ArenA](https://www.oba.nl/agenda/bijlmerplein/5gsightseeingtourindebijlmerarena.html)
+
 **December 2021**
 
 [Show me the numbers: Workshop on Analyzing IETF Data (AID), 2021](https://www.iab.org/activities/workshops/aid/)
