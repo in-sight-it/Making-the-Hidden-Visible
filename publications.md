@@ -63,6 +63,8 @@ Interview with NWO-MVI (the Dutch Research Council - Platform for Responsible In
 [Contribution to Request for Comments by Dutch Telecoms Authority on 35 GHZ frequencies](https://isoc.nl/nieuws/reactie-internet-consultatie-frequentieveiling-35-ghz-band/)
 
 **Blogs**
+[Walking the infrastructure walk and dancing the frequency dance](https://globaldigitalcultures.org/2022/04/12/walking-the-infrastructure-walk-and-dancing-the-frequency-dance-you-only-see-it-when-you-get-it/)
+Blog for Global Digital Cultures
 
 [Human Rights are not a Bug](https://labs.ripe.net/author/niels-ten-oever/human-rights-are-not-a-bug/)
 Blog on Ripe Labs
