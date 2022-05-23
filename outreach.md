@@ -4,8 +4,7 @@
 
 **April 2022**
 
-[IN-SIGHT.it kick-off event: Citizenship and standard-setting in digital networks.]
-IN-SIGHT.it Project Kick-Off held at NEN
+IN-SIGHT.it kick-off event: Citizenship and standard-setting in digital networks.
 
 On April 12th 2022, the IN-SIGHT.it project held its kick-off event at the offices of its institional partners, the Dutch Institute for Norm Development, NEN. They day consisted of an interactive workshop that highlighted the interdisciplinary nature of the project. The day was started by a keynote by Dr. Olia Kanevskaia of Utrecht University on the Futureproofing of Standardization and Standards Development Bodies. Dr. Kanevskaia highlighted the increased interest in standardization, including its role in aligning technology with the public interest and fundamental values, as highlighted in the European Union's (EU) standardization strategy. She offered several ways in which standardization processes, that are currently mostly aligned with the World Trade Organization's (WTO) Technical Barriers to Trade (TBT) Agreement could be improved to better reflect the public interest.
 
