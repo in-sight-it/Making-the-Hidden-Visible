@@ -1,5 +1,20 @@
 A selection of academic publications and media appearances related to IN-SIGHT.it:
 
+**Academic publications**
+
+- Becker, Christoph, Niels ten Oever, and Riccardo Nanni. (2022) [The Standardisation of Lawful Interception Technologies in the 3GPP: Interrogating 5G and Surveillance Amid US-China Competition](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4167105) TPRC 2022 conference, 2022. https://doi.org/10.2139/ssrn.4167105.
+
+- ten Oever, Niels, and Stefania Milan. (2022) [The Making of International Communication Standards: Towards a Theory of Power in Standardization](https://journals.open.tudelft.nl/jos/article/view/6205) Journal of Standardisation 1. TU Delft. DOI: (https://doi.org/10.18757/jos.2022.6205)
+
+- Li, Xue., Magliacane, Sara., and Groth, Paul. (2021) [The Challenges of Cross-Document Coreference Resolution for Email](https://dl.acm.org/doi/abs/10.1145/3460210.3493573) in: Proceedings of the 11th on Knowledge Capture Conference 2021. DOI: (doi:-0.1145/3460210.3493573)
+
+- ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology (SIIT 2021)
+
+- ten Oever, Niels (2021) [Norm conflict in the governance of transnational and distributed infrastructures: the case of Internet routing](https://www.tandfonline.com/doi/pdf/10.1080/14747731.2021.1953221), Globalizations, DOI: (doi:10.1080/14747731.2021.1953221)
+
+- ten Oever, Niels (2021) [“This is not how we imagined it”: Technological affordances, economic drivers, and the Internet architecture imaginary](https://journals.sagepub.com/doi/full/10.1177/1461444820929320). New Media & Society. 2021;23(2):344-362. (doi:10.1177/1461444820929320)
+
+
 **Postition Papers**
 ten Oever, Niels. [Towards the Multistakeholder Imposition of Internet Sanctions](https://techpolicy.press/towards-the-multistakeholder-imposition-of-internet-sanctions/) (2022)
 
@@ -47,16 +62,6 @@ Report about the governance of the Internet infrastructure - funded by the Ford 
 [Increasing our control over the technology that shapes us](https://www.nwo-mvi.nl/node/5883)
 [De technologie die ons vormt meer in eigen handen krijgen](https://www.nwo-mvi.nl/nl/node/5883)
 Interview with NWO-MVI (the Dutch Research Council - Platform for Responsible Innovation)
-
-**Academic publications**
-
-- Li, Xue., Magliacane, Sara., and Groth, Paul. (2021) [The Challenges of Cross-Document Coreference Resolution for Email](https://dl.acm.org/doi/abs/10.1145/3460210.3493573) in: Proceedings of the 11th on Knowledge Capture Conference 2021. DOI: (doi:-0.1145/3460210.3493573)
-
-- ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology (SIIT 2021)
-
-- ten Oever, Niels (2021) [Norm conflict in the governance of transnational and distributed infrastructures: the case of Internet routing](https://www.tandfonline.com/doi/pdf/10.1080/14747731.2021.1953221), Globalizations, DOI: (doi:10.1080/14747731.2021.1953221)
-
-- ten Oever, Niels (2021) [“This is not how we imagined it”: Technological affordances, economic drivers, and the Internet architecture imaginary](https://journals.sagepub.com/doi/full/10.1177/1461444820929320). New Media & Society. 2021;23(2):344-362. (doi:10.1177/1461444820929320)
 
 **Policy Documents**
 
