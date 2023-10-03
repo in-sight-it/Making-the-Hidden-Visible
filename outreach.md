@@ -1,6 +1,34 @@
+---
+layout: page
+---
+
+**Februrary 2023**
+
+<a href="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-2.jpeg" target="_blank"><img style="float=left; margin-right: 1em; width: 50%;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-2.jpeg"></a>Exhibition: "Antennas and us" 
+
+Exhibited at the Amsterdam public library (center location), December 2022 – March 2023.
+
+Together with Berlin-based art collective weise7 we organized an exhibit called ‘antennas and us’ in the Amsterdam public library to show the invisible workings of telecommunications networks, and beam-forming in particular. the exhibition ran from November 2022 until march 2023. 
+
+The exposition is meant to make specific less-known mechanisms part of the 5G standard more explicit, students subsequently interviewed library visitors for additional data collection and public engagement. 
+
+<img style="float=left; margin-right: 1em; margin-bottom: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-3.jpeg">
+<br>
+
+**September 2022**
+
+[Infrastructure Walk Berlin](https://www.criticalinfralab.net/2022/09/01/infrastructure-walk-berlin-september-2022/)
+<img style="float=left; margin-right: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/infrastructure-walk-berlin.jpeg">
+
+The Infrastructure Walk Berlin was carried out by Niels Ten Oever, Jeroen de Vos and Maxigas, and started at the Technische Universität Berlin.
+
+Hear much more about the infrastructure walk in this [podcast](https://spaceoddity.podigee.io/13-oddity-nr-12-5g-walk)!
+
 **May 2022**
 
 [Workshop Data Streams in the City](https://www.oba.nl/agenda/dehallen/workshopdatastromenindestadvormgevenaanamsterdamsedatainfrastructuren.html)
+
+<img style="float=left; margin-right: 1em; margin-bottom: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/data-streams-in-the-city.jpeg">
 
 **April 2022**
 
@@ -18,6 +46,7 @@ Particpation in the workshop was very diverse, there were representatives from i
 **March 2022**
 
 [5G infrastructure walk at Bijlmer ArenA](https://www.oba.nl/agenda/bijlmerplein/5gsightseeingtourindebijlmerarena.html)
+[Blog post report](https://globaldigitalcultures.org/2022/04/12/walking-the-infrastructure-walk-and-dancing-the-frequency-dance-you-only-see-it-when-you-get-it/)
 
 **December 2021**
 
