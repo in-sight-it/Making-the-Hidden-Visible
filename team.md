@@ -3,7 +3,7 @@ layout: page
 ---
 
 The project is led by:
-- Dr. Stefania Milan (University of Amsterdam)
+- Prof. Dr. Stefania Milan (University of Amsterdam)
 - Prof. Dr. Paul Groth (University of Amsterdam)
 
 The researchers for this project are:
@@ -11,7 +11,7 @@ The researchers for this project are:
 - Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
 
 The administrator of the project is:
-- Martin Trans MA
+- Martin Trans, MA
 
 ## Biographies
 
@@ -25,7 +25,7 @@ Previously, Paul led the design of a number of large scale data integration and 
 
 <img style="float:left; margin-right: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/small/Effy.png" padding-right="10px"> **Effy Xue Li** is a PhD student at the University of Amsterdam, supervised by Prof. Paul Groth. She is working on the extraction and analysis of knowledge graphs from long running complex conversations and therefore look at how we can integrate public values into standardization processes. Previously she was an AI resident at Microsoft Research Cambridge working on program understanding and search relevance. She obtained her Master’s in AI at the University of Edinburgh, where she did her dissertation in NLP. 
 
-<img style="float:left; margin-right: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/small/Martin.jpg" padding-right="10px">**Martin Trans** holds a cum laude research master's degree in Media Studies from the University of Amsterdam and a BA in Information Studies from Aarhus University. He previously worked with CAT4SMR and the Imagining a Crypto World project at the GDC, and is currently a project manager and research assistant at UvA. He focuses on programmed and digital methods, interdisciplinary approaches, and employs mixed methods within the digital humanities. Inspired by STS, critical data studies he explores the epistemologies and intersections of media, technology and society.
+<img style="float:left; margin-right: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/small/Martin.jpg" padding-right="10px">**Martin Trans** holds a (cum laude) research master's degree in Media Studies from the University of Amsterdam and a BA in Information Studies from Aarhus University. He previously worked with CAT4SMR and the Imagining a Crypto World project at the Global Digital Cultures (GDC), and is currently a project manager and research assistant at UvA. He focuses on programmed and digital methods, interdisciplinary approaches, and employs mixed methods within the digital humanities. Inspired by STS and critical data studies he explores the epistemologies and intersections of media, technology, society and humanity.
 
 
 ## Alumni

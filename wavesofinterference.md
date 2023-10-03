@@ -1,14 +1,20 @@
+---
+layout: page
+---
+
 **Waves of Interference 5G lab**
 
-This in an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos seek to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
+[The Critical Infrastructure Lab](https://www.criticalinfralab.net/){:target="_blank"} is a now independent research project growing out of the Waves of Interference 5G lab started within IN-SIGHT.it. There, Niels Ten Oever, Maxigas and Fieke Jansen research power and contestation in transnational media infrastructures, focusing on the geopolitical and environmental apsects of standards-setting, straddling academia and civil society. 
 
-To provide this research project with a strong theoretical, technical, and social foundation, we have developed a [position paper](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf). Comments on this position paper are very welcome, and we seek to update the document when new insights arise. Previous versions will be stored here as well.  
+This started as an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos sought to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
 
-The research currently has two going parts:
+To provide this research project with a strong theoretical, technical, and social foundation, they have developed a [position paper](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf){:target="_blank"}. Comments on this position paper are very welcome, and we seek to update the document when new insights arise. Previous versions will be stored here as well.  
+
+The research had two initial going parts:
 
 **1. Examinging social media platforms and website to identify interpetative frames of 5G**
   
-  Initial work on this has been done during the [Digital Methods Initiative Winterschool](https://wiki.digitalmethods.net/Dmi/WinterSchool2021Infodemic5G)
+  Initial work on this has been done during the [Digital Methods Initiative Winterschool](https://wiki.digitalmethods.net/Dmi/WinterSchool2021Infodemic5G){:target="_blank"}
     
 **2. Constructing experimental 5G networks through a 5G lab**
   
