@@ -1,10 +1,11 @@
 ---
 layout: page
+title: Outreach
 ---
 
 **Februrary 2023**
 
-<a href="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-2.jpeg" target="_blank"><img style="float=left; margin-right: 1em; width: 50%;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-2.jpeg"></a>Exhibition: "Antennas and us" 
+<a href="/assets/antennas-and-us-2.jpeg" target="_blank"><img style="float=left; margin-right: 1em; width: 50%;" align="left" src="/assets/antennas-and-us-2.jpeg"></a>Exhibition: "Antennas and us" 
 
 Exhibited at the Amsterdam public library (center location), December 2022 – March 2023.
 
@@ -12,13 +13,13 @@ Together with Berlin-based art collective weise7 we organized an exhibit called 
 
 The exposition is meant to make specific less-known mechanisms part of the 5G standard more explicit, students subsequently interviewed library visitors for additional data collection and public engagement. 
 
-<img style="float=left; margin-right: 1em; margin-bottom: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/antennas-and-us-3.jpeg">
+<img style="float=left; margin-right: 1em; margin-bottom: 1em;" align="left" src="/assets/antennas-and-us-3.jpeg">
 <br>
 
 **September 2022**
 
 [Infrastructure Walk Berlin](https://www.criticalinfralab.net/2022/09/01/infrastructure-walk-berlin-september-2022/)
-<img style="float=left; margin-right: 1em;" align="left" src="https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/infrastructure-walk-berlin.jpeg">
+<img style="float=left; margin-right: 1em;" align="left" src="/assets/infrastructure-walk-berlin.jpeg">
 
 The Infrastructure Walk Berlin was carried out by Niels Ten Oever, Jeroen de Vos and Maxigas, and started at the Technische Universität Berlin.
 
@@ -65,3 +66,5 @@ Particpation in the workshop was very diverse, there were representatives from i
 **April 2021**
 
 - Two emerging communication governance regimes - Invited lecture at the University of Amsterdam Institute for Information Law
+
+<img src="/assets/logos/logo_branded.png" style="width: 33%; margin: auto; display: block;">

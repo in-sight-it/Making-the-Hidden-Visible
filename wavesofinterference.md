@@ -1,14 +1,13 @@
 ---
 layout: page
+title: Waves of Interference 5G lab
 ---
-
-**Waves of Interference 5G lab**
 
 [The Critical Infrastructure Lab](https://www.criticalinfralab.net/){:target="_blank"} is a now independent research project growing out of the Waves of Interference 5G lab started within IN-SIGHT.it. There, Niels Ten Oever, Maxigas and Fieke Jansen research power and contestation in transnational media infrastructures, focusing on the geopolitical and environmental apsects of standards-setting, straddling academia and civil society. 
 
 This started as an indepedent sub-project of IN-SIGHT.it in which Niels ten Oever, Maxigas, and Jeroen de Vos sought to construct critical interpretative frames by analysing governance processes and implementations that make sense of the 5G phenomena and its infrastructural ecology.
 
-To provide this research project with a strong theoretical, technical, and social foundation, they have developed a [position paper](https://raw.githubusercontent.com/in-sight-it/in-sight-it.github.io/gh-pages/assets/Peoples5GLabPostitionPaper.pdf){:target="_blank"}. Comments on this position paper are very welcome, and we seek to update the document when new insights arise. Previous versions will be stored here as well.  
+To provide this research project with a strong theoretical, technical, and social foundation, they have developed a [position paper](/assets/Peoples5GLabPostitionPaper.pdf){:target="_blank"}. Comments on this position paper are very welcome, and we seek to update the document when new insights arise. Previous versions will be stored here as well.  
 
 The research had two initial going parts:
 
@@ -346,4 +345,4 @@ The research had two initial going parts:
 ## Acknowledgents
   - Albert ten Oever, LAG Hackerspace, Arnd 'Justa' TechInc
 
-  
+<img src="/assets/logos/logo_branded.png" style="width: 33%; margin: auto; display: block;">

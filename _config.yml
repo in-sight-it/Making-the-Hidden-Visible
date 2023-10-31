@@ -26,7 +26,11 @@ baseurl: ''
 title: 'IN-SIGHT.it'
 description: 'Citizenship and standard-setting in digital networks'
 permalink: pretty
-logo: "https://avatars.githubusercontent.com/u/75691025?s=60&v=4"
+# logo: "https://avatars.githubusercontent.com/u/75691025"
+logo: "/assets/logos/logo.png"
+
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  144: '/assets/logos/logo@144px.png'
 
 # Pagination
 paginate: 5
@@ -80,3 +84,8 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+fonts:
+
+  font_urls:
+    - ../assets/fonts/SourceSans3-VariableFont_wght.woff2

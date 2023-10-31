@@ -1,11 +1,10 @@
 ---
-title: <span style="color:grey">Citizenship and standard-setting in digital networks</span>
-feature_image: "https://github.com/in-sight-it/in-sight-it.github.io/blob/gh-pages/shannon.jpg?raw=true"
+title: Citizenship and standard-setting in digital networks
+feature_image: "/assets/antenna.jpeg"
 feature_text: |
-  ## <span style="color:red">IN-SIGHT.it</span>
+  ## IN-SIGHT.it
+  **Making the hidden visible: Co-designing for public values in standards-making and governance**
 ---
-
-**Co-designing for public values in standards-making and governance**
 
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
 
@@ -17,3 +16,5 @@ This project investigates three cases of national relevance and global breadth:
 3. identity management standards (e.g., DigID).
 
 In so doing, the project contributes to illuminating the “wiring” of values (or lack thereof) into technical standards, the relation and the balance of power between a variety of public (e.g., states) and private actors (e.g., the industry, consumers), informal lawmaking and multistakeholder governance mechanisms. It will result in the co-design of mechanisms for technology and governance, and in standards which are “value- and rights-respecting by design”.
+
+<img src="/assets/logos/logo_branded.png" style="width: 33%; margin: auto; display: block;">
