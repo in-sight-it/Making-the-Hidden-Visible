@@ -7,6 +7,8 @@ A selection of academic publications and media appearances related to IN-SIGHT.i
 
 **Academic publications**
 
+- Christoph Becker, Niels ten Oever & Riccardo Nanni (2024) [Interrogating the standardisation of surveillance in 5G amid US–China competition, Information, Communication & Society](https://doi.org/10.1080/1369118X.2024.2302991){:target="_blank"} in Information, Communication & Society. DOI: 10.1080/1369118X.2024.2302991
+
 - Li, Xue, Hughes, Anthony, Llugiqi, Majlinda, Polat, Fina, Groth, Paul, and Ekaputra, Fajar J. (2023) [Knowledge-centric Prompt Composition for Knowledge Base Construction from Pre-trained Language Models](https://lm-kbc.github.io/workshop2023/proceedings/3_Li.pdf){:target="_blank"} KBC-LM’23: Knowledge Base Construction from Pre-trained Language Models workshop at ISWC 2023.
 
 - Li, Xue, Polat, Fina, and Groth, Paul. (2023) [Do Instruction-tuned Large Language Models Help with Relation Extraction?](https://openreview.net/forum?id=8DiJU0Dyqe){:target="_blank"} KBC-LM’23: Knowledge Base Construction from Pre-trained Language Models workshop at ISWC 2023. [[alternate link]](https://effyli.github.io/llmre.pdf)
