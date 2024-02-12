@@ -4,6 +4,8 @@ feature_image: "/assets/antenna.jpeg"
 feature_text: |
   ## IN-SIGHT.it
   **Making the hidden visible: Co-designing for public values in standards-making and governance**
+  
+  **Join us for our research report [launch event](https://spui25.nl/programma/do-we-really-care-public-values-and-digital-technology-in-the-netherlands){:target="_blank"} at SPUI25 in Amsterdam, February 21st 2024!**
 ---
 
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
