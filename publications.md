@@ -11,15 +11,21 @@ A selection of academic publications and media appearances related to IN-SIGHT.i
 
 - Li, Xue, Hughes, Anthony, Llugiqi, Majlinda, Polat, Fina, Groth, Paul, and Ekaputra, Fajar J. (2023) [Knowledge-centric Prompt Composition for Knowledge Base Construction from Pre-trained Language Models](https://lm-kbc.github.io/workshop2023/proceedings/3_Li.pdf){:target="_blank"} KBC-LM’23: Knowledge Base Construction from Pre-trained Language Models workshop at ISWC 2023.
 
+- ten Oever, Niels (2023) [“5G and the notion of network ideology, or: The limitations of sociotechnical imaginaries”](https://doi.org/10.1016/j.telpol.2022.102442){:target="_blank"}. Telecommunication Policy, 47(5). DOI: 10.1016/j.telpol.2022.102442.
+
 - Li, Xue, Polat, Fina, and Groth, Paul. (2023) [Do Instruction-tuned Large Language Models Help with Relation Extraction?](https://openreview.net/forum?id=8DiJU0Dyqe){:target="_blank"} KBC-LM’23: Knowledge Base Construction from Pre-trained Language Models workshop at ISWC 2023. [[alternate link]](https://effyli.github.io/llmre.pdf)
 
 - Cong, Tianji, Sun, Zhenjie, Groth, Paul, Jagadish, H., and Hulsebos, Madelon. (2023) [Introducing the Observatory Library for End-to-End Table Embedding Inference](https://openreview.net/forum?id=JIrTIMI5Yd){:target="_blank"} NeurIPS 2023 Second Table Representation Learning Workshop, 2023.
 
+- ten Oever, Niels. (2022) “5G, Community Networks, Standardization, and the Human Rights to Science and Technological Self Determination”. In: [Community Networks as Enablers of Human Rights](https://direitorio.fgv.br/en/publication/community-networks-enablers-human-rights){:target="_blank"}, 49– 56. Eds. Luca Belli and Senka Hadzic. Official Outcome of the UN IGF Dynamic Coalition on Community Connectivity. Addis Ababa, Ethiopia: FGV Direito Rio. Book chapter.
+
 - Becker, Christoph, Niels ten Oever, and Riccardo Nanni. (2022) [The Standardisation of Lawful Interception Technologies in the 3GPP: Interrogating 5G and Surveillance Amid US-China Competition](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4167105){:target="_blank"} TPRC 2022 conference, 2022. https://doi.org/10.2139/ssrn.4167105.
+
+- ten Oever, N., Cath, C., Kühlewind, M., and C. Perkins. (2022) ["Report from the IAB Workshop on Analyzing IETF Data (AID) 2021"](https://www.rfc-editor.org/info/rfc9307){:target="_blank"}, RFC 9307, DOI 10.17487/RFC9307
 
 - ten Oever, Niels, and Stefania Milan. (2022) [The Making of International Communication Standards: Towards a Theory of Power in Standardization](https://journals.open.tudelft.nl/jos/article/view/6205){:target="_blank"} Journal of Standardisation 1. TU Delft. DOI: (https://doi.org/10.18757/jos.2022.6205)
 
-- Li, Xue., Magliacane, Sara., and Groth, Paul. (2021) [The Challenges of Cross-Document Coreference Resolution for Email](https://dl.acm.org/doi/abs/10.1145/3460210.3493573){:target="_blank"} in: Proceedings of the 11th on Knowledge Capture Conference 2021. DOI: (doi:-0.1145/3460210.3493573)
+- Li, Xue., Magliacane, Sara., and Groth, Paul. (2021) [The Challenges of Cross-Document Coreference Resolution for Email](https://dl.acm.org/doi/abs/10.1145/3460210.3493573){:target="_blank"} in: Proceedings of the 11th on Knowledge Capture Conference 2021. DOI: (doi:10.1145/3460210.3493573)
 
 - ten Oever, Niels, and Milan, Stefania. (2021) 'The Making of International Communication Standards' in: Conference Proceedings of 11th International Conference on Standardisation and Innovation in Information Technology [SIIT 2021](https://www.euras.org/img/upload/pdf/EURAS_SIIT_Online_Advance_Programme_v2.pdf)
 
