@@ -74,6 +74,9 @@ A selection of academic publications and media appearances related to IN-SIGHT.i
 
 **Reports**
 
+- [Public values concerning digital technologies](https://in-sight.it/assets/IN-SIGHT_Public_values_report_EN.pdf) // [Publieke waarden rondom digitale technologieën](https://in-sight.it/assets/IN-SIGHT_Publieke_waarden_rapport_NL.pdf)
+ – Research report on a representative study of how Dutch people think about digital technologies and standardisation, and their own role in how these are created. February 2024.
+
 - [Human Rights Are Not A Bug: Upgrading Governance for an Equitable Internet](https://www.fordfoundation.org/work/learning/research-reports/human-rights-are-not-a-bug-upgrading-governance-for-an-equitable-internet"){:target="_blank"}
  – Report about the governance of the Internet infrastructure - funded by the Ford Foundation
 
