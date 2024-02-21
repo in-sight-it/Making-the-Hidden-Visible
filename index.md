@@ -6,6 +6,8 @@ feature_text: |
   **Making the hidden visible: Co-designing for public values in standards-making and governance**
   
   **Join us for our research report [launch event](https://spui25.nl/programma/do-we-really-care-public-values-and-digital-technology-in-the-netherlands){:target="_blank"} at SPUI25 in Amsterdam, February 21st 2024!**
+
+  **Research Report on Public values concerning digital technologies out Februrary 2024! <span class="download-button">[[EN]](https://in-sight.it/assets/IN-SIGHT_Public_values_report_EN.pdf)</span> <span class="download-button">[[NL]](https://in-sight.it/assets/IN-SIGHT_Publieke_waarden_rapport_NL.pdf)</span>**
 ---
 
 While deeply woven into our everyday life, digital infrastructure—from network switches to public administration databases—is typically invisible to users. The process of standard-making, in particular, remains a blind spot. 
