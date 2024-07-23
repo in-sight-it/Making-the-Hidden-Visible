@@ -12,6 +12,7 @@ The researchers for this project are:
 - Xue Li MSc (Effy) (PhD student) (University of Amsterdam)
 
 The administrator of the project is:
+- Meg Kitamura
 - Martin Trans, MA
 
 ## Biographies
